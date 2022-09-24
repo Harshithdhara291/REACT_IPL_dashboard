@@ -1,0 +1,96 @@
+.team-info-KKR {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  background-image: linear-gradient(to bottom, #3a225d, white);
+  min-height: 100vh;
+}
+.team-info-RCB {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  background-image: linear-gradient(to bottom, #d5152c, white);
+  min-height: 100vh;
+}
+.team-info-KXP {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  background-image: linear-gradient(to bottom, #ed1f27, white);
+  min-height: 100vh;
+}
+.team-info-CSK {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  background-image: linear-gradient(to bottom, #fcce06, white);
+  min-height: 100vh;
+}
+.team-info-RR {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  background-image: linear-gradient(to bottom, #254aa5, white);
+  min-height: 100vh;
+}
+.team-info-MI {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  background-image: linear-gradient(to bottom, #004f91, white);
+  min-height: 100vh;
+}
+.team-info-SH {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  background-image: linear-gradient(to bottom, #9a1c22, white);
+  min-height: 100vh;
+}
+.team-info-DC {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  background-image: linear-gradient(to bottom, darkblue, white);
+  min-height: 100vh;
+}
+.team-banner {
+  height: 220px;
+  width: 450px;
+}
+.team-head {
+  align-self: flex-start;
+  font-size: 50px;
+  font-weight: bold;
+  color: WHITE;
+}
+.match-cards-cont {
+  list-style-type: none;
+  margin: 15px;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}

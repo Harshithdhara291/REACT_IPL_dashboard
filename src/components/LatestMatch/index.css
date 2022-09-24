@@ -1,0 +1,17 @@
+.latest-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  padding: 20px;
+  border-radius: 5px;
+}
+.logo {
+  height: 150px;
+  width: 150px;
+  margin: 20px;
+}
+.para {
+  color: white;
+  font-weight: 400;
+}

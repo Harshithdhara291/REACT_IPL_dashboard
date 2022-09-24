@@ -1,0 +1,20 @@
+.match-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+  width: 230px;
+}
+.card-logo {
+  height: 80px;
+  width: 80px;
+}
+.head {
+  color: white;
+  font-weight: 400;
+}
