@@ -1,82 +1,52 @@
-.team-info-KKR {
+.team-info {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 25px;
-  background-image: linear-gradient(to bottom, #3a225d, white);
+  padding: 35px;
   min-height: 100vh;
+}
+
+.team-info-KKR {
+  background-image: linear-gradient(to bottom, #3a225d, white);
 }
 .team-info-RCB {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 25px;
   background-image: linear-gradient(to bottom, #d5152c, white);
-  min-height: 100vh;
 }
 .team-info-KXP {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 25px;
   background-image: linear-gradient(to bottom, #ed1f27, white);
-  min-height: 100vh;
 }
 .team-info-CSK {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 25px;
   background-image: linear-gradient(to bottom, #fcce06, white);
-  min-height: 100vh;
 }
 .team-info-RR {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 25px;
   background-image: linear-gradient(to bottom, #254aa5, white);
-  min-height: 100vh;
 }
 .team-info-MI {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 25px;
   background-image: linear-gradient(to bottom, #004f91, white);
-  min-height: 100vh;
 }
 .team-info-SH {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 25px;
   background-image: linear-gradient(to bottom, #9a1c22, white);
-  min-height: 100vh;
 }
 .team-info-DC {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 25px;
   background-image: linear-gradient(to bottom, darkblue, white);
-  min-height: 100vh;
 }
-.team-banner {
-  height: 220px;
-  width: 450px;
+
+@media screen and (max-height: 767px) {
+  .team-banner {
+    height: 150px;
+    width: 350px;
+  }
+}
+@media screen and (min-height: 768px) {
+  .team-banner {
+    height: 250px;
+    width: 350px;
+  }
 }
 .team-head {
   align-self: flex-start;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bold;
   color: WHITE;
 }
